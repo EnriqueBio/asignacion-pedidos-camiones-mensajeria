@@ -9,67 +9,44 @@ El problema se aborda mediante un modelo de **Programación Lineal Entera Mixta 
 
 ## Estructura del repositorio
 
+```text
 ├── docs/
-│ └── memoria_TFG.pdf
+│   └── memoria_TFG.pdf
 │
 ├── src/
-│ ├── model/
-│ │ └── model.py
-│ │ └── batch_plem_final_gap.py
-│ ├── generator/
-│ │ └── generador_masivo.py
-│ ├── analysis/
-│ │ └── analizador_medias.py
-│ │ └── analizador_medias_con_conteos.py
-│ └── plots/
-│ └── grafico_convergencia.py
-│ └── grafico_escalabilidad.py
-│ └── grafico_tipologia.py
+│   ├── model/
+│   │   ├── model.py
+│   │   └── batch_plem_final_gap.py
+│   ├── generator/
+│   │   └── generador_masivo.py
+│   ├── analysis/
+│   │   ├── analizador_medias.py
+│   │   └── analizador_medias_con_conteos.py
+│   └── plots/
+│       ├── grafico_convergencia.py
+│       ├── grafico_escalabilidad.py
+│       └── grafico_tipologia.py
 │
 ├── data/
-│ ├── inputs/
-│ │ ├── 40P5C.xlsx
-│ │ ├── 100P10C.xlsx
-│ │ └── 400P30C-time.xlsx
-│ │
-│ ├── instances/
-│ │ ├── bateria_pruebas_40-100/
-│ │ │ ├── run_40p_05c_iter01.dat
-│ │ │ ├── run_40p_05c_iter02.dat
-│ │ │ └── run_40p_05c_iter03.dat
-│ │ └── bateria_pruebas_200-400/
-│ │ │ ├── run_200p_10c_iter01.dat
-│ │ │ ├── run_200p_10c_iter02.dat
-│ │ │ └── run_200p_10c_iter03.dat
-│ │ └── bateria_pruebas_ADR/
-│ │ │ ├── run_200p_ADRB_iter01.dat
-│ │ │ ├── run_200p_ADRB_iter02.dat
-│ │ │ └── run_200p_ADRB_iter03.dat
-│ │ └── bateria_pruebas_Normal_ADR_Pesado/
-│ │ │ ├── run_200p_ADR_iter01.dat
-│ │ │ ├── run_200p_ADR_iter02.dat
-│ │ │ └── run_200p_ADR_iter03.dat
-│ │
-│ └── results/
-│ │ └── results_40-100/
-│ │ │ ├── resultados_definitivos.csv
-│ │ │ ├── resumen_final_conteos.csv
-│ │ │ └── resumen_medias.csv
-│ │ └── results_200-400/
-│ │ │ ├── resultados_definitivos.csv
-│ │ │ ├── resumen_final_conteos.csv
-│ │ │ └── resumen_medias.csv
-│ │ └── results_200_ADR/
-│ │ │ ├── resultados_definitivos.csv
-│ │ │ ├── resumen_final_conteos.csv
-│ │ │ └── resumen_medias.csv
-│ │ └── results_200_Normal_ADR_Pesado/
-│ │ │ ├── resultados_definitivos.csv
-│ │ │ ├── resumen_final_conteos.csv
-│ │ │ └── resumen_medias.csv
+│   ├── inputs/
+│   │   ├── 40P5C.xlsx
+│   │   ├── 100P10C.xlsx
+│   │   └── 400P30C-time.xlsx
+│   ├── instances/
+│   │   ├── bateria_pruebas_40-100/
+│   │   ├── bateria_pruebas_200-400/
+│   │   ├── bateria_pruebas_ADR/
+│   │   └── bateria_pruebas_Normal_ADR_Pesado/
+│   └── results/
+│       ├── results_40-100/
+│       ├── results_200-400/
+│       ├── results_200_ADR/
+│       └── results_200_Normal_ADR_Pesado/
 │
 ├── requirements.txt
 └── README.md
+```
+
 
 
 ---
