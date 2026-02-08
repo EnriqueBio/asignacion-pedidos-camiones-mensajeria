@@ -1,0 +1,5 @@
+Escenario;Config;Coste_Medio;Tiempo_Medio;Gap_Medio;N_Optimos;N_GapAlto;Total_Iteraciones;%_Exito
+Archivo;Config;0.0;0.0;0.0;1;0;1;100.0
+run_200p_ADRB;Limite_300s;10207.63;186.87;0.03;15;0;30;50.0
+run_200p_ADRE;Limite_300s;20277.85;16.61;0.0;30;0;30;100.0
+run_200p_ADRM;Limite_300s;12682.01;89.81;0.01;25;0;30;83.33

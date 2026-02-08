@@ -1,0 +1,7 @@
+;;Objetivo;Objetivo;Objetivo;Objetivo;Objetivo;Gap;Gap;Gap;Gap;Gap;Tiempo;Tiempo;Tiempo;Tiempo;Tiempo
+;;count;mean;std;min;max;count;mean;std;min;max;count;mean;std;min;max
+Escenario;Config;;;;;;;;;;;;;;;
+Archivo;Config;1;0.0;;0.0;0.0;1;0.0;;0.0;0.0;1;0.0;;0.0;0.0
+run_200p_ADRB;Limite_300s;30;10207.63;1937.67;6412.5;15073.0;30;0.03;0.07;0.0;0.29;30;186.87;133.77;5.81;300.09
+run_200p_ADRE;Limite_300s;30;20277.85;2140.0;15203.02;24230.52;30;0.0;0.0;0.0;0.0;30;16.61;11.36;0.72;44.15
+run_200p_ADRM;Limite_300s;30;12682.01;1778.29;10161.51;17199.52;30;0.01;0.06;0.0;0.32;30;89.81;106.81;3.6;300.13
